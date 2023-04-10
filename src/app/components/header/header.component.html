@@ -1,0 +1,48 @@
+<header
+  class="w-full h-[65px] fixed"
+  [ngClass]="{ 'bg-[#131313]': isScrolled }"
+>
+  <div class="container font-roboto px-[26px]">
+    <div class="flex items-centerr h-full gap-[50px] flex-wrap">
+      <div class="text-[27px] font-bold mt-[10px]">
+        <span class="text-[#ffffff]">Kino</span>
+        <span class="text-[#ff0000]">World</span>
+      </div>
+
+      <div class="text-[16px] font-medium text-[#ffffff] mt-[12px]">
+        <div class="flex gap-[42px] justify-center flex-wrap">
+          <div class="relative">
+            <div
+              class="select-none hover:bg-red-600 active:bg-red-700 py-2 px-4 rounded cursor-pointer z-10 relative text-center text-white"
+            >
+              HOME
+            </div>
+            <div
+              class="absolute inset-0 bg-red-600 opacity-0 hover:opacity-100 active:opacity-100 rounded w-full h-full"
+            ></div>
+          </div>
+          <div class="relative">
+            <div
+              class="select-none hover:bg-red-600 active:bg-red-700 py-2 px-4 rounded cursor-pointer z-10 relative text-center text-white"
+            >
+              MOVIES
+            </div>
+            <div
+              class="absolute inset-0 bg-red-600 opacity-0 hover:opacity-100 active:opacity-100 rounded w-full h-full"
+            ></div>
+          </div>
+          <div class="relative">
+            <div
+              class="select-none hover:bg-red-600 active:bg-red-700 py-2 px-4 rounded cursor-pointer z-10 relative text-center text-white"
+            >
+              SEARCH
+            </div>
+            <div
+              class="absolute inset-0 bg-red-600 opacity-0 hover:opacity-100 active:opacity-100 rounded w-full h-full"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
